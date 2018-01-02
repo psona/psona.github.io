@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo{
+   text-align: center;
+    
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+header{
+ 
+    background:linear-gradient(rgba(66, 91, 131, 0.4),rgba(82, 175, 210, 0.5) ),url(img/photo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+    
+}
+
+
+.menu-up{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items{
+  
+    display: flex;
+    margin-right: 120px;
+}
+.menu-items li{
+    list-style: none;
+    margin-left: 20px;
+}
+.menu-items a{
+    text-decoration: none;
+    color: #fff;
+}
+.basket-icon{
+    
+    background-image: url(img/icon.png) no-repeat;
+    color: red;
+}
+.menu-icon{
+    margin-right: 40px;
+}
+
+
+.text-header {
+    margin:  0 auto;
+    max-width: 874px;
+    max-height: 142px;
+    padding: 392px 0 412px 0;
+}
+.text-header h1{
+    text-align: center;
+    height: 140px;
+    
+ 
+
+color: #ffffff;
+font-family: "Old Standard TT";
+font-size: 72px;
+font-weight: 400;
+line-height: 72px;
+
+}
+
+
+
+header p{
+   text-align: center;
+  
+color: #c2c1c1;
+font-family: Ubuntu;
+font-size: 28px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 1.68px;
+   
+}
+.button{
+    text-align: center;
+    margin-top: -130px;
+}
+.content-text{
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.text{
+    padding: 199px 80px 0 0;
+}
+.text h1{
+   
+color: #3c3c3c;
+font-family: "Old Standard TT";
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+    margin-bottom: 40px;
+}
+.text p{
+    
+   
+color: #6a6a6a;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+
+letter-spacing: 1.08px;
+    margin-bottom: 84px;
+}
+
+
+.buttonbike{
+
+max-width: 220px;
+max-height: 60px;
+background-color: #3c3c3c;
+      
+
+color: #ffffff;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 60px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 1.44px;
+    margin-bottom: 120px;
+    
+    
+}
+
+.buttonbike:hover{
+    background: red;
+}
+    
+
+
+
+
+.bike1 img{
+    width: 100%;
+    max-width: 858px;
+    max-height: 609px;
+    position: relative;
+    right: 40px
+}
+
+.bike2 img{
+    margin-top: 100px;
+    width: 100%;
+    max-width: 686px;
+    max-height: 850px;
+    margin-bottom: 104px;
+}
+.content-text2 p{
+    
+
+
+
+
+text-align: justify;
+width: 522px;
+height: 131px;
+color: #6a6a6a;
+font-family: "Ubuntu - Light Italic";
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+
+letter-spacing: 1.44px;
+    
+    
+    }
+.bikephotoall{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bikephoto{
+    max-width:  1213px;
+max-height: 808px;
+    margin: 0 auto;
+    width: 100%;
+}
+.bikephotos{
+    width: 100%;
+   display: block;
+    margin-top: 180px;
+}
+
+.bikecenter h1{
+    color: #3c3c3c;
+font-family: "Old Standard TT";
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+   text-align: center;
+    margin-bottom: 38px;
+}
+
+.bikecenter p{
+    max-width:905px;
+max-height:74px;
+    color: #6a6a6a;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 1.08px;
+margin: 0 auto;
+    margin-bottom: 20px;
+}
+.accesories h1{
+    margin: 0 auto;
+    max-width: 1031px;
+max-height: 57px;
+    color: #1f2835;
+font-family: "Old Standard TT";
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+    margin-bottom: 10px;
+}
+
+
+.accesories p{
+    max-width: 905px;
+max-height: 74px;
+color: #6a6a6a;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+margin: 0 auto;
+letter-spacing: 1.08px;
+    
+}
+
+.photoacces{
+    width: 100%;
+    max-height: 230px;
+    max-width: 270px;
+}
+
+.acces-all{
+    display: flex;
+   justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 20px;
+    
+}
+.col{
+    flex-basis: 23%;
+
+    
+    
+}
+.acces img{
+    width: 100%;
+    max-width: 270px;
+max-height: 230px;
+}
+.col h1{
+   
+color: #3c3c3c;
+font-family: "Old Standard TT";
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+    
+
+letter-spacing: 1.1px;
+}
+.col p{
+text-align: center;
+}
+
+.buttonacces{
+  max-width: 220px;
+max-height: 60px;
+background-color: #3c3c3c;
+}
+footer{
+     background:linear-gradient(rgba(66, 91, 131, 0.4),rgba(82, 175, 210, 0.5) ),url(img/photo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+ 
+   display: flex;
+    justify-content: center;
+    align-content: center;
+    
+   
+}
+    .box1{
+  
+       margin-top: 200px; 
+     width: 1170px;
+     height: 251px;
+box-shadow: 0 0 30px rgba(60, 60, 60, 0.2);
+background-color: #ffffff;
+}
+
+.box1 h1{
+    padding-top: 30px;
+    text-align: center;
+    color: #3c3c3c;
+font-family: "Old Standard TT";
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+}
+
+.box1 p{
+    max-width: 500px;
+
+color: #6a6a6a;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+margin: 10px auto;
+text-align: justify;
+letter-spacing: 1.08px;
+}
+
+.myForm{
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+}
+ .myForm > input{
+    background: #e8e8e8;
+     padding: 5px;
+     color: #fff;
+     color: #6a6a6a;
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+     text-align: center;
+    margin-right: 3px;
+}
+.myForm >button{
+    background-color: #3c3c3c;
+    width: 200px;
+height: 36px;
+    color: #fff;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    
+    
+    }
