@@ -36,8 +36,8 @@ header{
 
 
 .left{
-    max-width: 1240px;
-    max-height: 1032px;
+    width: 1240px;
+    height: 1032px;
     flex-basis: 65%;
     background-color: #eff2f6;
 }
@@ -61,8 +61,8 @@ font-weight: 400;
 line-height: 30px;
     margin-left: 140px;
     margin-top: 50px;
-    max-width: 392px;
-max-height: 44px;
+    width: 392px;
+height: 44px;
     
     
 }
@@ -71,12 +71,12 @@ max-height: 44px;
     
     flex-basis:35%;
     background-color: #ff343d;
-    max-height: 1032px;
+    height: 1032px;
 }
 
 .buy-info{
     margin-top: 40px;
-    max-width: 370px;
+    width: 370px;
     margin-left: 320px;
     
     
@@ -110,16 +110,16 @@ text-transform: uppercase;
 }
 .flyboxes{
     display: flex;
-    max-height: 614px;
+    height: 614px;
 }
 .fly1{
         background: url(img/photo.png);
-
-    max-width: 614px;
-max-height: 614px;
+   
+    width: 614px;
+height: 614px;
 }
 .fly2{
     background: url(img/photo2.png);
-   max-width: 1385px;
-max-height: 614px;
+   width: 1385px;
+height: 614px;
 }
