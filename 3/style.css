@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 220px;
-    
+    align-items: center;
     margin-left: 217px;
     margin-right: 70px;
     
@@ -74,10 +74,7 @@ max-height: 44px;
     height: 100%;
 }
 .circle{
-    width: 652px;
-height: 652px;
-background-color: #ffffff;
-    border-radius: 50%;
+
     
 }
 
