@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font: 300 18px / 1.6em Roboto, Arial, sans-serif;
+	color: #7c8ca0; 
+    
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    
+    
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+.page-header{
+    padding: 25px 0 25px 0;
+    border-bottom: 1px solid #7c8ca0;
+}
+.page-header > .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    
+}
+
+.menu-items {
+    display: flex
+        
+        
+        ;
+    margin: 0 7px;
+    align-items: center;
+}
+.menu-items ul{
+   text-decoration: none; 
+}
+
+
+.menu-items  li{
+    
+    list-style: none;
+    margin: 0 4px;
+	display: inline-block;
+}
+.menu-items li a {
+	padding: 16px 25px;
+	display: inline-block;
+	color: #5d6981;
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 400;
+}
+
+.menu-items a:hover{
+    color: #9fabba;
+}
+
+.menu-items .active {
+	border-radius: 36px;
+	border: 1px solid #9fabba;
+    
+    
+}
+menu-items .menu-icon {
+	margin: 0 8px;
+}
+
+.menu-icon a {
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 46px;
+	padding: 0;
+    margin-right: 3px;
+}
+.facebook-icon {
+	background-image: url('../img/facebook-icon.png');
+}
+
+.twitter-icon {
+	background-image: url('../img/twitter-icon.png');
+}
+
+
+
+/*Srodek Strony Kod*/
+
+.section-header {
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+.section-header h2 {
+	color: #0149a1;
+	font-size: 72px;
+	font-weight: 700;
+	
+}
+
+.section-header p {
+	color: #5d6981;
+	font-size: 36px;
+	line-height: 1.3em;
+	font-weight: 300;
+	margin: 28px 0 0;
+
+    
+}
+
+.intro-cta{
+    text-align: center;
+	margin-top: 105px;
+	margin-bottom: 115px;
+    
+    
+    
+}
+
+
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	padding: 24px 70px;
+	color: #0149a1;
+	background: #fff;
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 700;
+	border-radius: 30px;
+}
+
+.btn-primary {
+	background-color: #ff2d55;
+	color: #fff;
+}
+.btn-primary:hover{
+    background-color:#0149a1;
+    color: #ff2d55;
+}
+
+
+   .feature-boxes> .container{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-box{
+    flex-basis: 23%;
+    text-align: center;
+}
+.intro-video{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../img/chat.png') no-repeat left 55px, url('../img/light-bulb.png') no-repeat right 55px;
+    
+} 
+
+.intro-video-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1094px;
+	width: 100%;
+   
+    margin: 0 auto;
+    position: relative;
+}
+.btn-default{
+    position: absolute;
+   
+    top:230px;
+}
+.btn-default:hover{
+    background:#0149a1;
+    color: #fff;
+}
+.creativity{
+    margin-top: 132px;
+    background: url('../img/creativity.png') no-repeat;
+    background-size: cover;
+    height: 610px;
+}
+
+.creativy-ctn{
+   text-align: center;
+    color: #fff;
+   
+
+}
+
+
+.btn-cre{
+display: inline-block;
+line-height: 60px;
+color: #fff;
+font-size: 18px;
+width: 240px;
+height: 60px;
+box-shadow: 0 0 134px 27px #ffffff;
+border-radius: 30px;
+background-color: #0149a1;
+margin-top: 355px;
+margin-bottom: 195px;
+}
+
+.btn-cre:hover{
+    color:#0149a1;
+    background: #fff;
+    border: 1px solid #000;
+
+}
+
+
+/*Sekcja How We Work*/
+
+
+.how-work{
+    
+   background-color:  #0149a1;
+    height: 920px;
+}
+.work{
+    padding:140px;
+    text-align: center;
+}
+
+.work-group{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0.8px;
+    padding: 15px;
+}
+
+.work h2{
+color: #ffffff;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+}
+.work p{
+font-size: 21px;
+font-weight: 300;
+line-height: 28px;
+    color: #5483bb;
+    
+    
+}
+
+
+
+
+.work-text p{
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+    color: #fff;
+}
+
+.work-cta{ 
+    margin-top: 98px;
+    text-align: center;
+    
+    
+}
+
+
+.btn-work{
+    display: inline-block;
+    line-height:60px;
+    height: 60px;
+        width:240px;
+    border-radius: 30px;
+background-color: #ffffff;
+    color: #000;
+}
+.btn-work:hover{
+    background: #ff2d55;
+    color:#fff;
+}
+.photo{
+    padding-top: 108px;
+    text-align: center;
+    padding-bottom: 49px;
+    
+     }
+    .slogan {
+       
+       
+        margin: 0 auto;
+      width: 570px;
+        padding-bottom: 120px;
+        
+    
+}
+
+
+.mauris > .container {
+    position: relative;
+   
+}
+.arrow1{
+    position: absolute;
+    top:315px;
+    left: 115px;
+    display: inline-block;
+    width: 2.9em;
+    height: 2.9em;
+    line-height: 2.9em;
+    
+    text-align: center;
+    
+    border-radius: 50%;
+        border:1px solid #e3e7eb;
+}   
+
+
+.arrow-shape{
+vertical-align: middle;
+    
+}
+
+.arrow2{
+    
+    position: absolute;
+    top:315px;
+    right: 115px;
+    display: inline-block;
+    width: 2.9em;
+    height: 2.9em;
+    line-height: 2.9em;
+    
+    text-align: center;
+    
+    border-radius: 50%;
+        border:1px solid #e3e7eb;
+    
+}
+.our-team{
+    background-color: #edeff1;
+}
+
+.meet-our{
+    text-align: center;
+    padding-top: 68px;
+    color: #0149a1;
+font-size: 22px;
+font-weight: 400;
+    
+}
+
+
+.meet-all {
+    display: flex;
+   justify-content: space-between;
+    padding: 50px ;
+}
+.person{
+    flex-basis: 23%;
+    padding: 10px 23px;
+text-align: center;    
+}
+
+.person h1{
+
+color: #5d6981;
+
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+}
+.person p{
+
+color: #7c8ca0;
+
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+    
+}
+.map{
+    
+   
+    }
+.map1{
+     background-repeat: no-repeat;
+border: 1px solid #aaa;
+    width: 100%;
+height: 100%;
+    display: block;
+}
+.page-footer{
+    background-color: #0149a1;
+}
+.all-links{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.links{
+    flex-basis: 13%;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
