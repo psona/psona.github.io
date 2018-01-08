@@ -5,7 +5,8 @@
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: inherit;
+    
 }
 
 .logo{
@@ -30,33 +31,61 @@ header{
 }
 
 
-.menu-up{
-    padding: 20px;
+header>.container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .menu-items{
-  
+    padding: 10px;
+  width: 100%;
     display: flex;
-    margin-right: 120px;
+    justify-content: space-between;
+    align-items: center;
 }
 .menu-items li{
     list-style: none;
     margin-left: 20px;
+    
+    padding: 20px;
 }
 .menu-items a{
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
-.basket-icon{
+
+.menu-icon a {
+display:inline;
+   
+width: 500px;
+ height: 61px;  
     
-    background-image: url(img/icon.png) no-repeat;
+}
+ 
+
+nav:hover{
     color: red;
 }
-.menu-icon{
-    margin-right: 40px;
+    
+    
+    
+    
 }
+
+
+.basket-icon{
+   
+   margin-left: 170px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+    
+    
+    
+}
+
 
 
 .text-header {
@@ -127,28 +156,28 @@ letter-spacing: 1.08px;
 
 
 .buttonbike{
-
-max-width: 220px;
-max-height: 60px;
+display: inline-block;
+padding: 5px 50px;
 background-color: #3c3c3c;
       
 
-color: #ffffff;
+color: #fff;
 font-family: Ubuntu;
 font-size: 18px;
 font-weight: 400;
-line-height: 60px;
+line-height: 40px;
 text-transform: uppercase;
 text-align: center;
 letter-spacing: 1.44px;
     margin-bottom: 120px;
     
-    
+}
+.buttonbike:hover{
+    background:#e8e8e8;
+    color: #000;
 }
 
-.buttonbike:hover{
-    background: red;
-}
+
     
 
 
@@ -291,18 +320,37 @@ letter-spacing: 1.1px;
 }
 .col p{
 text-align: center;
+    margin: 0 0 15px 0 ;
 }
 
-.buttonacces{
-  max-width: 220px;
-max-height: 60px;
-background-color: #3c3c3c;
+
+  .btn {
+	display: inline-block;
+	padding: 14px 90px;
+	color: #0149a1;
+	background: #fff;
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 700;
+	
 }
+
+.btn-primary {
+	background-color: #3c3c3c;
+    color: #fff; }
+.btn-primary:hover{
+    background-color: #e8e8e8;
+    color: #000;
+}
+
+
 footer{
      background:linear-gradient(rgba(66, 91, 131, 0.4),rgba(82, 175, 210, 0.5) ),url(img/photo.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 650px;
+    padding: 25px;
+    margin-top:20px;
  
    display: flex;
     justify-content: center;
@@ -369,9 +417,15 @@ height: 36px;
 .bottom-text {
     display: flex;
     justify-content: space-between;
-    align-content: flex-end;
+    margin: 150px 0 0 0;
     color: #fff;
     font-size: 18px;
     
     
     }
+
+hr{
+    position: relative;
+    top: 146px;
+    border: 1px solid #fff;
+}
