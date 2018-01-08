@@ -78,3 +78,29 @@ max-height: 44px;
     
 }
 
+.mars{
+    width: 282px;
+height: 1138px;
+text-shadow: 0 0 55px rgba(0, 1, 1, 0.15);
+color: #ffffff;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.flyboxes{
+    display: flex;
+}
+.fly1{
+        background: url(img/photo.png);
+
+    max-width: 614px;
+max-height: 614px;
+}
+.fly2{
+    background: url(img/photo2.png);
+   max-width: 1385px;
+max-height: 614px;
+}
