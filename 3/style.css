@@ -13,13 +13,13 @@ header{
 }
 
 .logo-info{
+    
     display: flex;
     justify-content: space-between;
     width: 220px;
     align-items: center;
-    margin-left: 217px;
-    margin-right: 70px;
     
+    margin: 40px 70px 0 217px;
 }
 
 .info{
@@ -36,7 +36,7 @@ header{
 
 
 .left{
-    
+    max-width: 1240px;
     max-height: 1032px;
     flex-basis: 65%;
     background-color: #eff2f6;
@@ -44,7 +44,7 @@ header{
 .left h2{
     
 margin-top: 405px;
-    margin-left: 340px;
+    margin-left: 140px;
 color: #000000;
 font-family: Montserrat;
 font-size: 60px;
@@ -59,7 +59,7 @@ font-family: Montserrat;
 font-size: 14px;
 font-weight: 400;
 line-height: 30px;
-    margin-left: 330px;
+    margin-left: 140px;
     margin-top: 50px;
     max-width: 392px;
 max-height: 44px;
@@ -72,6 +72,22 @@ max-height: 44px;
     flex-basis:35%;
     background-color: #ff343d;
     max-height: 1032px;
+}
+
+.buy-info{
+    margin-top: 40px;
+    max-width: 370px;
+    margin-left: 320px;
+    
+    
+}
+.buy-info p{
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
 }
 .circle{
 
@@ -89,9 +105,12 @@ font-weight: 700;
 line-height: 30px;
 text-transform: uppercase;
 }
-
+.fly{
+    
+}
 .flyboxes{
     display: flex;
+    max-height: 614px;
 }
 .fly1{
         background: url(img/photo.png);
